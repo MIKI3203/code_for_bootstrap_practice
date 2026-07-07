@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Carousel</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+
+  
+  <link rel="stylesheet" href="carousel.css">
+</head>
+
+<body>
+
+  <main>
+
+    <!-- ************************************************ カルーセル開始 -->
+    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+     
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="img/top_1.jpg" class="d-block w-100" alt="サンプル画像1">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>
+                Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Donec id elit non mi porta gravida at eget metus.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/top_2.jpg" class="d-block w-100" alt="サンプル画像2">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Second Slide</h1>
+              <p>2枚目の画像です。</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/top_3.jpg" class="d-block w-100" alt="サンプル画像3">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Third Slide</h1>
+              <p>3枚目の画像です。</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 前へ -->
+      <button class="carousel-control-prev" type="button"
+        data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+        <!-- 次へ -->
+      <button class="carousel-control-next" type="button"
+        data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+    <!-- ************************************************ カルーセル終了 -->
+
+  </main>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
