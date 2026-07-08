@@ -1,0 +1,9 @@
+/* ケーキ画像の下に少し余白をつける */
+.rounded-circle {
+  margin-bottom: 15px;
+}
+
+/* 各カラムの上下に余白をつける */
+.text-center {
+  margin-bottom: 30px;
+}
